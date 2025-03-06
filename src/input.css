@@ -4,3 +4,15 @@
   --font-display: "Satoshi", sans-serif;
   --text-primary: #ff6363;
 }
+
+.card {
+  @apply bg-white rounded overflow-hidden border-gray-200 shadow-md relative;
+}
+
+.badge {
+  @apply absolute top-0 mt-2 ml-2 p-2 bg-[#E2E2D5] rounded-full text-xs font-bold uppercase text-[#888883];
+}
+
+.btn {
+  @apply rounded-full px-3 py-2 uppercase text-xs cursor-pointer tracking-wider font-bold;
+}
