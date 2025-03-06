@@ -1,0 +1,15 @@
+{
+  "name": "recipes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.10",
+    "tailwindcss": "^4.0.10"
+  }
+}
