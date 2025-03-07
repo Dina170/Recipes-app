@@ -6,7 +6,7 @@
 }
 
 .card {
-  @apply bg-white rounded overflow-hidden border-gray-200 shadow-md relative;
+  @apply bg-white rounded overflow-hidden border-gray-200 shadow-md relative hover:shadow-lg;
 }
 
 .badge {
